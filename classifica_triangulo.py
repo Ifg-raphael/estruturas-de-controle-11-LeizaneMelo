@@ -6,7 +6,7 @@ if a < b + c and b < a + c and c < a + b:
 #Verifica qual tipo de triângulo
     if a == b and b == c:
         print('equilátero')
-  elif a == b or b == c or a == c:
+    elif a == b or b == c or a == c:
         print('isósceles')
     else:
         print ('escaleno')
